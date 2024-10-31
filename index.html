@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Học web cơ bản</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Học lập trình Web cơ bản</h1>
+            <p>Nhiệt độ: <span id="temp">19</span></p>
+
+             <div class="devices">  <!--flex-container -->
+                <div class="dev">   <!--flex-item -->
+                    <img id="light01" src="./img/light_bulb_off.png">
+                    <p>Đèn 01</p>
+                    <button id="led01_on">ON</button>
+                    <button id="led01_off">OFF</button>
+                </div>
+                <div class="dev">
+                    <img src="./img/light_bulb_off.png">
+                    <p>Đèn 02</p>
+                    <button>ON</button>
+                    <button>OFF</button>
+                </div>
+                <div class="dev">
+                    <img src="./img/light_bulb_off.png">
+                    <p>Đèn 03</p>
+                    <button>ON</button>
+                    <button>OFF</button>
+                </div>
+                <div class="dev">
+                    <img src="./img/light_bulb_off.png">
+                    <p>Đèn 04</p>
+                    <button>ON</button>
+                    <button>OFF</button>
+                </div>
+                <div class="dev">
+                    <img src="./img/light_bulb_off.png">
+                    <p>Đèn 05</p>
+                    <button>ON</button>
+                    <button>OFF</button>
+                </div>
+                <div class="dev">
+                    <img src="./img/light_bulb_off.png">
+                    <p>Đèn 06</p>
+                    <button>ON</button>
+                    <button>OFF</button>
+                </div>
+            </div>
+
+        </div>
+    
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>     
+        <script src="./control.js"></script>
+    </body>   
+</html>

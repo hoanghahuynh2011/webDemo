@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(248 130 1);
+}
+.container {
+    margin: 0 30%;
+    text-align: center;
+    background-color: #ffa9000a;
+}
+
+.container p {
+    font-weight: bold;
+}
+.container span {
+    color: red;
+}
+
+/*flex-container */
+.devices {
+    background-color: beige;   
+    display: flex; 
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+.devices img {
+    width: 100%;
+}
+
+/*flex-item */
+.dev { 
+    border: 1px dashed red;
+    flex: 49%;
+}
+
+/* Media query for phones (up to 767px) */
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 0 10%;
+    }
+}
